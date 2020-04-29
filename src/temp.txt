@@ -1,0 +1,56 @@
+
+
+// linear-gradient(180deg,transparent 70%,#fff5c4 0)
+
+/* background-position: 4px bottom; */
+
+/*
+background-image: linear-gradient(120deg, #7edce2ff 0%, #7edce2ff 100%);
+  background-repeat: no-repeat;
+  background-position: 0 88%;
+  background-size: 100% 0.2em;
+*/
+  /* @apply cursor-pointer text-orange-300; */
+
+export const blob = html`
+  <svg
+    className="max-w-md md:max-w-lg mx-auto"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g transform="translate(260,250)">
+      <path
+        d="M136.7,-167.7C162.8,-141,159.7,-84.3,163.6,-33.1C167.6,18.1,178.6,63.8,164.9,102.4C151.2,141,112.7,172.4,67.1,192.7C21.4,213,-31.4,222.1,-80.1,209.1C-128.8,196.1,-173.5,161.1,-194.8,116.3C-216.1,71.6,-213.9,17.1,-201.1,-32C-188.3,-81.1,-164.9,-124.8,-129.6,-149.9C-94.3,-175,-47.1,-181.5,4.1,-186.4C55.3,-191.2,110.6,-194.4,136.7,-167.7Z"
+      />
+    </g>
+  </svg>
+`
+
+export const waveInv = html`
+  <svg
+    className="fill-current text-cool-gray-100"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1440 320"
+  >
+    <path
+      fill="#0099ff"
+      fill-opacity="1"
+      d="M0,64L60,85.3C120,107,240,149,360,170.7C480,192,600,192,720,176C840,160,960,128,1080,112C1200,96,1320,96,1380,96L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+    ></path>
+  </svg>
+`
+
+
+export const arrowDownIcon = html`
+  <svg
+    className="w-5"
+    fill="none"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+  >
+    <path d="M19 9l-7 7-7-7"></path>
+  </svg>
+`
