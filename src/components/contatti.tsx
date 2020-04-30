@@ -1,5 +1,5 @@
 import React, { FunctionComponent, Children } from 'react'
-import Section, { sectionPx } from './section'
+import Section, { stdToSmSectionPx, mdSectionPx } from './section'
 
 const phoneIcon = (
   <svg
@@ -84,7 +84,7 @@ const Contatti: FunctionComponent = () => (
   <Section paddedSm>
     <div
       id="contacts"
-      className={`bg-cool-gray-900 py-5 mt-10 md:mb-12 md:py-12 md:shadow-xl md:rounded-lg ${sectionPx}`}
+      className={`bg-cool-gray-900 py-5 mt-10 md:mb-12 md:py-12 md:shadow-xl md:rounded-lg ${stdToSmSectionPx}`}
     >
       <div className="md:text-center max-w-lg mx-auto">
         <h5 className="text-cool-gray-300 subhead">Prenota una visita</h5>

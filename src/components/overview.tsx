@@ -44,7 +44,7 @@ const data = [
 const Overview: FunctionComponent = () => (
   <div className="bg-cool-gray-100 pb-10">
     <Section>
-      <div className="section-max-w wrapper flex items-center justify-between space-y-10 flex-col md:items-start md:space-x-8 md:space-y-0 md:flex-row">
+      <div className="section-max-w wrapper flex justify-between space-y-10 flex-col md:items-start md:space-x-8 md:space-y-0 md:flex-row">
         {data.map(({ header, body }, i) => (
           <div key={i} className="md:max-w-xs text-gray-600 md:flex-1">
             <div>

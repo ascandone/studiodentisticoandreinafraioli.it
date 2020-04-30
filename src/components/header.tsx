@@ -1,6 +1,6 @@
 import React, { FunctionComponent, useState } from 'react'
 import { Link } from 'gatsby'
-import Section from './section'
+import Section, { mdSectionPx, stdToSmSectionPx } from './section'
 
 const NavLink: FunctionComponent<{ to: string }> = props => (
   <Link
@@ -26,9 +26,11 @@ const MobileNav: FunctionComponent<{ expanded: boolean }> = ({ expanded }) => (
 )
 
 // <div className="bg-cool-gray-200 rounded-full p-2">
-const menuIcon = (
+const menuIcon = (isDark: boolean) => (
   <svg
-    className="w-8 h-8 text-cool-gray-900"
+    className={`w-8 h-8 transition-color duration-100 ${
+      isDark ? 'text-transparent' : 'text-cool-gray-900'
+    }`}
     fill="none"
     strokeLinecap="round"
     strokeLinejoin="round"
@@ -69,7 +71,7 @@ const arrowDownIcon = (
 )
 
 const DesktopNav: FunctionComponent = () => (
-  <nav className="hidden text-base md:flex space-x-1 items-center flex-shrink-0">
+  <nav className="hidden text-base lg:flex space-x-1 items-center flex-shrink-0">
     <NavLink to="/">Home</NavLink>
     <NavLink to="/about/">Chi sono</NavLink>
     <NavLink to="/404">Lo studio</NavLink>
@@ -88,7 +90,9 @@ const DesktopNav: FunctionComponent = () => (
   </nav>
 )
 
-const Header: FunctionComponent = ({}) => {
+const Header: FunctionComponent<{ darkBg?: boolean }> = ({
+  darkBg = false,
+}) => {
   const [expanded, setExpanded] = useState(false)
 
   return (
@@ -107,9 +111,9 @@ const Header: FunctionComponent = ({}) => {
 
             <button
               onClick={_ => setExpanded(!expanded)}
-              className="mr-4 wrapper md:hidden fixed right-0 z-10 focus:outline-none"
+              className={`wrapper lg:hidden fixed right-0 z-10 focus:outline-none ${stdToSmSectionPx} ${mdSectionPx}`}
             >
-              {expanded ? xIcon : menuIcon}
+              {expanded ? xIcon : menuIcon(darkBg)}
             </button>
           </div>
         </Section>
