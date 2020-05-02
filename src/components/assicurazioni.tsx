@@ -53,9 +53,8 @@ const Assicurazioni: FunctionComponent = () => {
           className="grid grid-cols-2 md:grid-cols-3 row-gap-5 col-gap-4 py-4 "
         >
           {assicurazioni.allFile.edges.map((data: any, i: number) => (
-            <div className="h-16 flex items-center overflow-hidden">
+            <div key={i} className="h-16 flex items-center overflow-hidden">
               <Img
-                key={i}
                 fluid={data.node.childImageSharp.fluid}
                 className="w-full"
                 alt="logo convenzione assicurativa"
