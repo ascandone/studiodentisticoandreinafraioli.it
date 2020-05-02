@@ -54,7 +54,7 @@ const Landing: FunctionComponent = () => {
 
               <div className="mt-6 sm:mr-8"></div>
 
-              <button className="btn shadow-lg shadow-md bg-teal-400 text-white transition-all duration-300 hover:shadow-xl">
+              <button className="btn shadow-lg bg-teal-400 text-white transition-all duration-300 hover:shadow-xl">
                 Contattaci
               </button>
             </div>
