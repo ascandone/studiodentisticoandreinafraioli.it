@@ -12,12 +12,20 @@ const NavLink: FunctionComponent<{ to: string }> = props => (
 
 const MobileNav: FunctionComponent<{ expanded: boolean }> = ({ expanded }) => (
   <div
-    className={`transition-all duration-200 fixed w-screen overflow-hidden bottom-0 ${
-      expanded ? 'h-screen' : 'h-0'
+    className={`fixed z-10 overflow-hidden top-0 right-0 left-0 bottom-0 ${
+      expanded ? '' : 'hidden'
     }`}
     style={{ touchAction: 'none' }}
   >
-    <div className="bg-white h-full w-full pt-20 wrapper">TODO: mobile nav</div>
+    <div className="bg-white h-full w-full pt-20 wrapper">
+      TODO: mobile nav
+      <div className="flex flex-col space-y-4">
+        <Link to="/">home</Link>
+        <Link to="/about">chi sono</Link>
+        <Link to="/odontoiatria">odontoiatria</Link>
+        <Link to="/medicina-estetica">medicina estetica</Link>
+      </div>
+    </div>
     {/* <div className="bg-green-400 opacity-75 absolute top-0 left-0 right-0 bottom-0"></div>
   <div className="absolute top-0 left-0 right-0 bottom-0">
     hello
@@ -77,7 +85,7 @@ const DesktopNav: FunctionComponent = () => (
     <NavLink to="/404">Lo studio</NavLink>
 
     <div className="relative">
-      <NavLink to="/contacts">
+      <NavLink to="/services">
         <div className="flex">
           Servizi
           <div className="mr-1"></div>
@@ -86,7 +94,12 @@ const DesktopNav: FunctionComponent = () => (
       </NavLink>
     </div>
 
-    <NavLink to="#contacts">Contatti</NavLink>
+    <a
+      href="#contacts"
+      className="btn text-cool-gray-600 hover:bg-cool-gray-100"
+    >
+      Contatti
+    </a>
   </nav>
 )
 
@@ -101,11 +114,11 @@ const Header: FunctionComponent<{ darkBg?: boolean }> = ({
         <Section>
           <MobileNav expanded={expanded} />
           <div className="h-20 flex-shrink-0 flex justify-between items-center w-full">
-            <a className={`${expanded ? 'fixed' : ''} flex-shrink`} href="/">
-              <h2 className="text-xl font-bold tracking-wider text-teal-900">
-                Studio Andreina Fraioli
+            <Link to="/" className="flex-shrink">
+              <h2 className="text-xl mr-12 font-bold tracking-wider text-teal-900">
+                Studio Dott. Andreina Fraioli
               </h2>
-            </a>
+            </Link>
 
             <DesktopNav />
 
