@@ -10,26 +10,31 @@ const NavLink: FunctionComponent<{ to: string }> = props => (
   />
 )
 
+const MobileLink: FunctionComponent<{ to: string }> = props => (
+  <Link
+    className="btn text-cool-gray-600"
+    activeClassName="font-semibold text-cool-gray-900 cursor-default"
+    {...props}
+  />
+)
+
 const MobileNav: FunctionComponent<{ expanded: boolean }> = ({ expanded }) => (
   <div
     className={`fixed z-10 overflow-hidden top-0 right-0 left-0 bottom-0 ${
       expanded ? '' : 'hidden'
     }`}
-    style={{ touchAction: 'none' }}
+    style={{ touchAction: expanded ? 'none' : 'auto' }}
   >
     <div className="bg-white h-full w-full pt-20 wrapper">
-      TODO: mobile nav
-      <div className="flex flex-col space-y-4">
-        <Link to="/">home</Link>
-        <Link to="/about">chi sono</Link>
-        <Link to="/odontoiatria">odontoiatria</Link>
-        <Link to="/medicina-estetica">medicina estetica</Link>
+      <div className="flex items-center justify-end h-full px-16">
+        <div className="flex flex-col h-64 justify-between text-right">
+          <MobileLink to="/">Home</MobileLink>
+          <MobileLink to="/about">Chi sono</MobileLink>
+          <MobileLink to="/odontoiatria">Odontoiatria</MobileLink>
+          <MobileLink to="/medicina-estetica">Medicina estetica</MobileLink>
+        </div>
       </div>
     </div>
-    {/* <div className="bg-green-400 opacity-75 absolute top-0 left-0 right-0 bottom-0"></div>
-  <div className="absolute top-0 left-0 right-0 bottom-0">
-    hello
-  </div>  */}
   </div>
 )
 
