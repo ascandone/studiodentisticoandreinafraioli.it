@@ -86,13 +86,16 @@ const Contatti: FunctionComponent = () => (
 
       <div className="grid row-gap-10 col-gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:mx-10">
         <ContactSection title="Contatti">
-          <a href="tel:0690211058" className="link dark">
+          <a href="tel:0690211058" className="link link-dark">
             06 - 9021 1058
           </a>
-          <a href="tel:3358316532" className="link dark">
+          <a href="tel:3358316532" className="link link-dark">
             335 - 831 6532
           </a>
-          <a href="mailto:andreina.fraioli@gmail.com" className="link dark">
+          <a
+            href="mailto:andreina.fraioli@gmail.com"
+            className="link link-dark"
+          >
             andreina.fraioli@gmail.com
           </a>
           <div className="flex">
