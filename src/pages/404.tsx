@@ -3,6 +3,7 @@ import React, { FunctionComponent } from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Section from '../components/section'
+import { Link } from 'gatsby'
 
 const NotFoundPage: FunctionComponent = () => (
   <Layout>
@@ -17,9 +18,9 @@ const NotFoundPage: FunctionComponent = () => (
 
           <p>
             Puoi tornare al sito cliccando{' '}
-            <a href="#" className="link text-gray-900 font-medium">
+            <Link to="/" className="link text-gray-900 font-medium">
               qua.
-            </a>
+            </Link>
           </p>
         </div>
       </div>
