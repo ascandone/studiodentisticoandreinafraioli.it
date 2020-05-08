@@ -87,9 +87,10 @@ const DesktopNav: FunctionComponent = () => (
   <nav className="hidden text-base lg:flex space-x-1 items-center flex-shrink-0">
     <NavLink to="/">Home</NavLink>
     <NavLink to="/about/">Chi sono</NavLink>
-    <NavLink to="/404">Lo studio</NavLink>
+    <NavLink to="/odontoiatria/">Odontoiatria</NavLink>
+    <NavLink to="/medicina-estetica/">Medicina Estetica</NavLink>
 
-    <div className="relative">
+    {/* <div className="relative">
       <NavLink to="/services">
         <div className="flex">
           Servizi
@@ -97,10 +98,10 @@ const DesktopNav: FunctionComponent = () => (
           {arrowDownIcon}
         </div>
       </NavLink>
-    </div>
+    </div> */}
 
     <a
-      href="#contacts"
+      href="#contatti"
       className="btn text-cool-gray-600 hover:bg-cool-gray-100"
     >
       Contatti

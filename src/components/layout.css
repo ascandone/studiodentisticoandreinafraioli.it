@@ -44,7 +44,7 @@ body {
   @apply underline-gradient;
 }
 
-.dark {
+.link .dark {
   background-image: linear-gradient(120deg, #2c7a7bff 0%, #2c7a7bff 100%);
 }
 
