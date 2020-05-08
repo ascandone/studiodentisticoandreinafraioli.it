@@ -3,230 +3,306 @@ import { ServiceData } from '../types'
 
 const data: Array<ServiceData> = [
   {
-    header: 'Cosmesi',
+    header: 'Igiene professionale',
     body: (
       <>
         <p>
-          Dal greco kosmein (adornare) deriva il termine di cosmesi (o
-          cosmetica) con cui si intendono tutte quelle tecniche che fanno uso di
-          prodotti atti a migliorare l’aspetto del viso e del corpo. Rientrano
-          in questo campo i cosiddetti prodotti di bellezza che vanno dalle
-          creme al trucco ai coloranti per capelli. Di norma i prodotti
-          cosmetici si distinguono da quelli farmacologici per avere una
-          funzione più di mascheramento che non veramente curativa. Esistono
-          però dei prodotti che sono una via di mezzo e che prendono il nome di
-          cosmeceutici. Di norma i prodotti cosmetici rappresentano il primo
-          fronte di intervento nella cura della bellezza e nella prevenzione dei
-          danni da invecchiamento. Il medico estetico esperto per prima cosa
-          sottopone il paziente ad una visita accurata somministrando opportuni
-          test per stabilire il tipo cutaneo. Fatto ciò prescriverà una serie di
-          prodotti cosmetici adatti e in grado di correggere eventuali squilibri
-          della pelle normalizzandola e prevenendone il precoce invecchiamento.
+          L’igiene professionale consiste principalmente nella rimozione del
+          tartaro ovvero di quella quota di placca batterica che non asportata
+          da filo e spazzolino permane nella bocca trasformandosi in una
+          concrezione calcifica e dura che può essere asportata solo per mezzo
+          di strumenti specifici, come ultrasuoni o curette, da parte del
+          professionista abilitato. Il tartaro non asportato causa infiammazione
+          gengivale che se trascurata può estendersi all’osso di sostegno dei
+          denti provocandone la perdita progressiva (parodontopatia o piorrea).
+          Compito dell’Igienista Dentale è inoltre insegnare le corrette
+          procedure di igiene domiciliare che è la vera base della prevenzione.
+          Queste manovre (eseguite con presidi come spazzolino, filo
+          interdentale, scovolino, ecc.) sono finalizzate all’asportazione
+          quotidiana della placca dentale.
         </p>
       </>
     ),
   },
   {
-    header: 'Ringiovanimento del Viso',
+    header: 'Sbiancamento dentale',
     body: (
       <>
         <p>
-          Il viso è senz’altro la parte più importante del corpo, se non altro
-          perché è quella in cui si concentrano quattro dei cinque sensi
-          attraverso i quali comunichiamo con il mondo esterno. I muscoli mimici
-          sono presenti solo sul viso e servono a comunicare il nostro stato
-          d’animo ai nostri simili. La formazione delle rughe è legata da una
-          parte alla perdita di elasticità della pelle e dall’altra all’azione
-          dei muscoli mimici che causano le rughe d’espressione che nel tempo
-          diventano permanenti. Oltre a ciò bisogna considerare che il viso
-          rappresenta una regione del corpo che, non essendo protetta dai
-          vestiti, rimane costantemente esposta all’azione degli elementi
-          atmosferici (in particolare ai raggi ultravioletti) che ne accelerano
-          l’invecchiamento. Il ringiovanimento del viso si avvale di tecniche
-          differenti spesso associate fra di loro. Fra di esse ricordiamo il
-          PRP, l’acido ialuronico, il microneedling, la carbossiterapia e il
-          botulino, il peeling, la rimozione di macchie cutanee, nonché la
-          scelta dei cosmetici appropriati al tipo di pelle.,
+          Avere denti bianchi e sani è un desiderio molto diffuso perché un bel
+          sorriso riflette uno stato d’animo positivo e rimotiva i nostri
+          interlocutori ad un’interazione collaborativa e ottimistica. Sbiancare
+          i propri denti è oggi possibile con l’applicazione locale di specifici
+          gel ad uso professionale ad azione rapida ed efficace.
         </p>
       </>
     ),
   },
   {
-    header: 'Botulino',
+    header: 'Rimineralizzazione dentale',
     body: (
       <>
         <p>
-          Prodotta dal batterio Clostridium botulinum la tossina botulinica ha
-          la capacità di inattivare la muscolatura e per questo motivo il suo
-          uso si è affermato in medicina estetica per il trattamento delle rughe
-          facciali che sono appunto dovute alla contrazione ripetuta dei muscoli
-          mimici. Si deve pensare al trattamento del volto con tossina
-          botulinica come alla possibilità di riarmonizzare le tensioni che la
-          muscolatura provoca nei tessuti creando un nuovo equilibrio fra i
-          muscoli antagonisti. Il suo uso riarmonizza le strutture muscolari del
-          volto nel terzo superiore del viso. Ciò che vogliamo ottenere non è la
-          paralisi dei muscoli responsabili delle rughe d’espressione ma
-          esclusivamente il loro indebolimento. In soggetti giovani il
-          trattamento determinerà un ritardo nello stabilirsi delle rughe
-          d’espressione che in un primo momento sono transitorie.
+          Il fluoro è un elemento chimico che se incorporato nello smalto
+          dentale lo rende molto resistente alla carie prevenendone l’insorgenza
+          e riducendone l’incidenza. Questa incorporazione può avvenire in
+          maniera ridotta con l’uso di paste dentifricie e collutori con
+          prodotti ad uso professionale. L’applicazione del fluoro dura pochi
+          minuti ma il risultato dura per mesi.
         </p>
       </>
     ),
   },
   {
-    header: 'Filler',
+    header: 'Sigillature',
     body: (
       <>
         <p>
-          L’invecchiamento del viso è caratterizzato dalla formazione delle
-          rughe e dalla progressiva “caduta” delle guance. Quest’ultima è dovuta
-          all’azione della forza di gravità su tessuti che hanno perso
-          elasticità e volume. I filler son particolari sostanze altamente
-          purificate, biocompatibili e riassorbibili che consentono di
-          ripristinare i volumi andati perduti e di distendere solchi,
-          depressioni e rughe attraverso il loro riempimento. La maggior parte
-          dei filler sono a base di acido ialuronico cross-linkato ma con
-          formulazioni differenziate a seconda dell’inestetismo da trattare.
-          Esistono così filler per la correzione dei volumi (zigomi, labbra,
-          ecc.), filler per le rughe superficiali e filler per le rughe
-          profonde. In mani esperte i filler consentono di restituire
-          rapidamente un aspetto giovanile e tonico a visi invecchiati e
-          stanchi.
+          Le cuspidi dei denti sono separate da solchi visibili anche ad occhi
+          nudo. Questi solchi rappresentano un ricettacolo di placca e sono
+          spesso la sede di insorgenza di processi cariosi soprattutto nei denti
+          dei bambini che ancora non hanno acquisito la manualità sufficiente
+          per uno spazzolamento efficace. Il dentista può procedere alla
+          chiusura di questi solchi tramite l’applicazione di una speciale
+          resina sigillante prevenendo così l’infiltrazione della placca e la
+          conseguente insorgenza della carie.
         </p>
       </>
     ),
   },
   {
-    header: 'Trattamento con piastrine (PRP)',
+    header: 'Odontoiatria infantile',
     body: (
       <>
         <p>
-          Il PRP (Plasma Ricco di Piastrine) è un prodotto che il medico ottiene
-          dal sangue dello stesso paziente che, dopo essere stato prelevato con
-          una siringa viene sottoposto ad uno speciale processo di
-          centrifugazione. Questa procedura consente di separare dal sangue un
-          concentrato di piastrine e fattori di crescita che vengono poi
-          iniettati nella cute stimolando il rinnovamento cellulare e la
-          produzione dei costituenti base del tessuto connettivo. La conseguenza
-          è un aumento di luminosità e turgore della pelle con riduzione dei
-          segni dell’età. I concentrati ottenuti dal sangue per centrifugazione
-          (PRP, PRF, AFG, CGF, PRGF, ecc.) vengono utilizzati in medicina e
-          chirurgia per promuovere la guarigione di ferite torpide e per
-          incrementare in genere i processi di guarigione. In medicina estetica
-          si usano per la biorivitalizzazione del viso e per promuovere la
-          ricrescita dei capelli.
+          Ci si chiede spesso se i denti da latte vadano curati. La risposta è
+          sì. I denti da latte hanno la funzione di mantenere uno spazio preciso
+          per i denti permanenti che dovranno sostituirli. La loro perdita
+          prematura dovuta alla carie può causare un’alterazione dell’eruzione
+          dei denti permanenti e quindi una malocclusione. Inoltre la carie dei
+          denti da latte causa dolore e ascessi dentali. I bambini non sono dei
+          piccoli adulti. La cura della bocca di un bambino richiede un impegno
+          particolare ed un approccio psicologico dolce ed empatico per evitare
+          che si sviluppi un’odontofobia che lo condannerebbe ad avere paura del
+          dentista per il resto della vita.
         </p>
       </>
     ),
   },
   {
-    header: `Trattamento calvizie`,
+    header: 'Ortodonzia',
     body: (
       <>
         <p>
-          Nell’assoluta maggioranza dei casi la perdita dei capelli è legata a
-          fattori ormonali uniti ad una predisposizione genetica. In particolare
-          nell’uomo la calvizie è dovuta all’azione dell’ormone maschile per
-          eccellenza, il testosterone, su determinati bulbi piliferi ad esso
-          sensibili che vanno incontro ad una progressiva involuzione e infine
-          alla scomparsa. La distribuzione dei peli e dei capelli fa parte dei
-          cosiddetti caratteri sessuali secondari che servono a differenziare i
-          due sessi. Per quanto riguarda il viso nel maschio abbiamo la crescita
-          della barba e la perdita dei capelli nelle zone frontali (le
-          stempiature) e sulla nuca. In base alla costituzione genetica le aree
-          sensibili all’azione del testosterone possono estendersi a gran parte
-          del cuoio capelluto lasciando indenne solo una ristretta zona
-          periferica che circonda un vertice ormai glabro. Il testosterone è
-          presente in piccole quantità anche nella donna. Quando questa eredita
-          dei bulbi sensibili all’azione di questo ormone può andare incontro ad
-          una calvizie con meccanismo analogo a quella maschile anche se con un
-          aspetto differente in quanto nel sesso femminile la perdita dei
-          capelli è diffusa invece che concentrata sulle tempie e sulla nuca.
-          Oggigiorno le armi più efficaci per combattere la calvizie sono il
-          PRP, la carbossiterapia ed il microneedling
+          Il termine ortodonzia significa denti dritti. In realtà l’ortodontista
+          non si limita ad addrizzare i denti ma controlla anche che i tempi di
+          eruzione dentale siano corretti e che non siano presenti anomalie
+          anatomiche o funzionali quali un alterato combaciamento delle arcate
+          dentarie (malocclusione), un frenulo linguale corto che può causare un
+          difetto di pronuncia, la permanenza di una deglutizione infantile che
+          impedisce la corretta chiusura dei denti o una respirazione orale che,
+          se non trattata per tempo, può causare un’alterazione di sviluppo
+          dello scheletro facciale e perfino un ritardo intellettivo.
+          L’intervento dell’ortodontista tuttavia non si limita all’ambito
+          infantile ma si estende anche a quello adulto. Infatti oggi sappiamo
+          che i denti dritti non sono solo più belli ma durano anche più a
+          lungo. Ciò è dovuto prima di tutto alla maggior facilità di pulizia
+          rispetto a denti affollati dai quali è più difficile snidare placca e
+          tartaro e poi al fatto che i denti sono disposti nelle arcate secondo
+          uno schema specifico che ne determina una reciproca protezione.
+          L’alterazione di questo schema protettivo è responsabile
+          dell’insorgenza di sovraccarichi che possono causare mobilità dentale,
+          fratture dello smalto, dolore e degenerazione delle articolazioni
+          della mandibola nonché frequenti mal di testa.
+        </p>
+        <p>
+          In alternativa all’ortodonzia fissa oggi è possibile far ricorso a
+          speciali mascherine trasparenti che sostituite periodicamente sono in
+          grado di allineare i denti in maniera invisibile.
         </p>
       </>
     ),
   },
   {
-    header: 'Microneedling',
+    header: 'Gnatologia',
     body: (
       <>
         <p>
-          Il microneedling è un trattamento di medicina estetica in cui tramite
-          l’utilizzo di sottili aghi si va a stimolare la pelle per provocarne
-          un miglioramento. Sappiamo infatti che quando si provoca una ferita la
-          pelle mette in atto dei meccanismi di guarigione con la produzione di
-          collagene ed elastina. La stimolazione cutanea ripetuta con l’utilizzo
-          di una speciale penna ad aghi permette di correggere numerose
-          imperfezioni della pelle fra cui:
-        </p>
-        <ul>
-          <li>cicatrici da acne</li>
-          <li>rughe sottili del labbro superiore</li>
-          <li>smagliature</li>
-          <li>pori dilatati</li>
-          <li>rilassamento cutaneo</li>
-        </ul>
-        <p>
-          Prima della seduta si applica sulla pelle da trattare una crema
-          anestetica. Il trattamento dura una decina di minuti e va ripetuto per
-          almeno 4 volte per vedere un risultato. In risposta alla stimolazione
-          la pelle reagisce diventando più tonica e luminosa nel giro di pochi
-          mesi.
+          La gnatologia è la disciplina che si occupa dei corretti rapporti fra
+          le arcate dentali (occlusione). Questi possono essere sia statici che
+          dinamici e sono determinati dalla forma e dalla posizione dei denti,
+          dalle articolazioni fra mandibola e cranio (articolazioni
+          temporo-mandibolari), dai muscoli della masticazione e dal sistema
+          nervoso centrale e periferico che li controlla. L’occlusione può
+          influenzare anche la postura corporea. Fra le patologie di interesse
+          gnatologico rientra il bruxismo (digrignamento e serramento dentale)
+          che può portare una precoce usura dentale, mal di testa, rumori e
+          dolori delle articolazioni della mandibola.
         </p>
       </>
     ),
   },
   {
-    header: 'Plasma exeresi',
+    header: 'Conservativa',
     body: (
       <>
         <p>
-          La plasma exeresi è una metodica che permette di correggere un’ampia
-          gamma di difetti cutanei tramite l’utilizzo di uno speciale strumento
-          in grado di creare un plasma ovvero un gas fortemente ionizzato capace
-          di provocare la sublimazione (evaporazione istantanea) dei tessuti
-          trattati. Questa metodica è in grado di sostituire il bisturi del
-          chirurgo in molte situazioni permettendo di trattare:
+          Con il termine di odontoiatria conservativa (o conservatrice) si
+          intendono le tecniche finalizzate a conservare un dente piuttosto che
+          ad estrarlo. La carie dentale è un processo di distruzione dei tessuti
+          duri del dente (smalto e dentina) operato dall’azione di acidi
+          prodotti dai batteri che albergano nella nostra bocca. Questo processo
+          se non contrastato si estende progressivamente fino alla polpa dentale
+          (nervo) causandone un’infiammazione detta pulpite (il classico mal di
+          denti). La carie può essere fermata asportando la porzione di dente
+          malato che poi verrà ricostruita con materiali opportuni. In passato
+          si è molto utilizzata l’amalgama d’argento (volgarmente definita
+          piombatura). Oggi le otturazioni vengono per lo più eseguite con
+          resine composite che hanno lo stesso colore del dente e risultano
+          quindi invisibili.
         </p>
-        <ul>
-          <li>Neoformazioni cutanee come verruche, fibromi e cheloidi</li>
-          <li>Xantelasmi (accumuli di grasso sulle palpebre)</li>
-          <li>Macchie cutanee</li>
-          <li>Cicatrici post-acneiche</li>
-          <li>Smagliature</li>
-          <li>Rughe</li>
-          <li>Tessuto eccedente palpebrale</li>
-        </ul>
       </>
     ),
   },
   {
-    header: 'Peeling',
+    header: 'Endodonzia',
     body: (
       <>
         <p>
-          Il termine peeling viene dal verbo inglese “to peel” che significa
-          spellarsi. Quando esposta all’azione di agenti irritanti chimici o
-          fisici la pelle tende a rigenerarsi dal profondo facendo cadere gli
-          strati superficiali che appunto si spellano lasciano il posto ad un
-          incarnato più luminoso e tonico. Un fenomeno naturale che tutti
-          conosciamo è lo spellamento conseguente all’abbronzatura. Effetti
-          analoghi ma meno dannosi dei raggi solari, che alla lunga invecchiano
-          la pelle, si possono ottenere con l’azione di determinate sostanze
-          chimiche. Fra di esse molto utilizzati sono gli acidi della frutta
-          (mandelico, malico, glicolico, piruvico, citrico, tartarico) che
-          consentono di effettuare un soft-peeling cioè un peeling socializzante
-          (che non costringe il paziente a chiudersi in casa per una settimana).
-          Esistono poi sostanze più aggressive, che vanno dall’acido tetracetico
-          al fenolo, che a fronte di un’azione più energica e profonda
-          presentano però effetti collaterali importanti e di più complessa
-          gestione. Il peeling riattiva il turnover cellulare, stimola la
-          neocollagenesi, migliora tono ed elasticità della pelle e riduce
-          seborrea e pori dilatati consentendo di trattare efficacemente rughe,
-          macchie, acne e cicatrici post-acneiche, disordini della
-          cheratinizzazione, ecc.
+          Endodonzia è sinonimo di cura canalare. Quando non è più possibile
+          salvare la polpa dentale (nervo) il dentista procede ad asportarla dai
+          canali presenti nelle radici del dente. Questi canali vengono
+          sigillati in modo da prevenire l’insorgenza di infezioni. Se la cura
+          canalare è eseguita bene il dente continuerà a svolgere la sua
+          funzione per moltissimi anni. Va tuttavia considerato il fatto che un
+          dente devitalizzato risulta più fragile di un dente intatto e che
+          perciò è consigliabile proteggerlo per mezzo di una corona protesica
+          (capsula) per prevenirne la frattura.
+        </p>
+      </>
+    ),
+  },
+  {
+    header: 'Protesi mobile',
+    body: (
+      <>
+        <p>
+          Con il termine protesi mobile (o rimovibile) si intendono quegli
+          apparecchi che possono essere facilmente rimossi dalla bocca dal
+          paziente e che servono a ripristinare i denti mancanti in parte
+          (protesi parziale) o totalmente (protesi totale o dentiera).
+        </p>
+      </>
+    ),
+  },
+  {
+    header: 'Protesi fissa',
+    body: (
+      <>
+        <p>
+          Comprende intarsi, corone (capsule) e ponti. Quando un dente è
+          parzialmente distrutto dalla carie il dentista può scegliere di
+          ripristinarlo con un intarsio. Quando la distruzione del dente è molto
+          avanzata non sarà più sufficiente un semplice intarsio ma bisognerà
+          ricostruire l’intera corona dentale con una capsula. Un dente mancante
+          invece può essere rimesso per mezzo di un ponte. In questo caso i due
+          denti adiacenti a quello mancante vengono limati e incapsulati. Queste
+          due capsule porteranno fra di loro il dente finto. Oggigiorno sempre
+          più spesso invece di limare due denti sani si preferisce rimettere il
+          dente mancante per mezzo di un impianto dentale.
+        </p>
+      </>
+    ),
+  },
+  {
+    header: 'Faccette estetiche',
+    body: (
+      <>
+        <p>
+          Per chi vuole avere un sorriso perfetto in brevissimo tempo è
+          possibile far ricorso alle faccette estetiche in porcellana. Il
+          dentista asporterà dalla superficie dei denti frontali un sottile
+          strato di smalto (due o tre decimi di millimetro) e farà preparare
+          delle faccette in porcellana che una volta incollate correggeranno
+          forma e colore dei denti fornendo un sorriso “hollywoodiano”.
+        </p>
+      </>
+    ),
+  },
+  {
+    header: 'Implantologia dentale',
+    body: (
+      <>
+        <p>
+          Per osteointegrazione si intende il fenomeno per cui una vite in
+          titanio inserita nell’osso mascellare va incontro ad un fenomeno di
+          saldatura con l’osso stesso trasformandosi in una radice artificiale
+          su cui il dentista può ancorare una capsula dentale. Questo processo
+          richiede un tempo variabile dai 3 ai 6 mesi ma in alcuni casi
+          specifici è possibile applicare il dente finto sulla vite lo stesso
+          giorno del suo inserimento nell’osso realizzando il cosiddetto carico
+          immediato. L’implantologia consente di rimettere dal singolo dente ad
+          un’intera arcata. La moderna implantologia osteointegrata ha una
+          percentuale di successo elevatissima.
+        </p>
+      </>
+    ),
+  },
+  {
+    header: 'Implantologia Computer Guidata',
+    body: (
+      <>
+        <p>
+          In casi specifici il dentista può proporre un piano di cura in cui il
+          progetto di riabilitazione viene sviluppato tramite computer con uno
+          programma che sulla base di una speciale radiografia (TAC, Dentascan o
+          Cone-Beam) consente la realizzazione di una mascherina guida con la
+          quale è possibile inserire gli impianti esattamente dove programmato
+          dal dentista. In questi casi sulla base del progetto computerizzato
+          sarà possibile realizzare in precedenza anche la protesi che verrà
+          quindi fissata direttamente in bocca a fine intervento. Si tratta
+          della cosiddetta tecnica “denti fissi in un’ora”.
+        </p>
+      </>
+    ),
+  },
+  {
+    header: 'Carico immediato',
+    body: (
+      <>
+        <p>
+          Per carico immediato si intende l’applicazione di una protesi fissa su
+          di un impianto dentale appena inserito senza aspettare il classico
+          tempo necessario per l’osteointegrazione (saldatura dell’impianto
+          all’osso mascellare). In questi casi in genere si applica una protesi
+          provvisoria che verrà sostituita da una protesi definitiva ad
+          osteointegrazione avvenuta.
+        </p>
+      </>
+    ),
+  },
+  {
+    header: 'All-on-four',
+    body: (
+      <>
+        <p>
+          In caso di edentulia completa è possibile ripristinare un’ arcata
+          dentale fissa poggiandola su quattro impianti.
+        </p>
+      </>
+    ),
+  },
+  {
+    header: 'Chirurgia Orale',
+    body: (
+      <>
+        <p>
+          La chirurgia orale è quella branca dell’odontoiatria che si occupa di
+          patologie di interesse chirurgico quali l’estrazione di denti non
+          recuperabili oppure problematici (alcuni denti del giudizio mal
+          posizionati), l’asportazione di neoformazioni dei mascellari (cisti,
+          tumori, ecc), la resezione dei frenuli patologici, l’esposizione di
+          denti non erotti in arcata a scopo ortodontico, ecc.
         </p>
       </>
     ),
