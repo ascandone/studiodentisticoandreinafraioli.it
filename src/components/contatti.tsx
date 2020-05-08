@@ -162,14 +162,14 @@ const Contatti: FunctionComponent = () => (
       </div>
 
       <div className="text-cool-gray-400 font-mono md:mx-10 text-xs mt-10 text-center">
-        <a href="#" className="link dark">
+        {/* <a href="#" className="link dark">
           Cookie policy
         </a>
         {' • '}
         <a href="#" className="link dark">
           Privacy policy
         </a>
-        {' • '}
+        {' • '} */}
         Designed and developed by{' '}
         <a href="#" className="link dark">
           Alessandro Scandone
