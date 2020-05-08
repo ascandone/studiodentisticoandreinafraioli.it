@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 import Section from './section'
 
@@ -31,13 +31,19 @@ const Landing: FunctionComponent = () => {
 
             <p className="text-lg font-light text-gray-600 leading-relaxed">
               Presso il nostro studio effettuiamo qualsiasi tipo di intervento{' '}
-              <a className="link font-normal text-gray-700" href="#">
+              <Link
+                to="/odontoiatria"
+                className="link font-normal text-gray-700"
+              >
                 Odontoiatrico
-              </a>{' '}
+              </Link>{' '}
               e di{' '}
-              <a href="#" className="link font-normal text-gray-700">
+              <Link
+                to="/medicina-estetica"
+                className="link font-normal text-gray-700"
+              >
                 Medicina Estetica
-              </a>
+              </Link>
               .
               <br />
               Ai nostri pazienti garantiamo un approccio dedicato e trattamenti
