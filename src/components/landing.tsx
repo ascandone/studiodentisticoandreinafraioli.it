@@ -3,20 +3,22 @@ import { useStaticQuery, graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 import Section from './section'
 
-const Landing: FunctionComponent = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      file(relativePath: { eq: "landing-pic-cut.png" }) {
-        childImageSharp {
-          # Specify a fluid image and fragment
-          # The default maxWidth is 800 pixels
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
+const imageQuery = graphql`
+  query {
+    file(relativePath: { eq: "landing-pic-cut.png" }) {
+      childImageSharp {
+        # Specify a fluid image and fragment
+        # The default maxWidth is 800 pixels
+        fluid {
+          ...GatsbyImageSharpFluid
         }
       }
     }
-  `)
+  }
+`
+
+const Landing: FunctionComponent = () => {
+  const data = useStaticQuery(imageQuery)
 
   return (
     <Section>
@@ -70,17 +72,12 @@ const Landing: FunctionComponent = () => {
           </div>
         </div>
 
-        {/* class="self-center mt-10 flex-1 w-full max-w-md" (screen) */}
         <div className="self-center mt-10 flex-1 w-full max-w-xs md:max-w-md">
           <Img
             fluid={data.file.childImageSharp.fluid}
             alt="Foto della dottoressa Andreina Fraioli"
           />
         </div>
-
-        {/* <div className="self-center mt-5 flex-1 fill-current text-teal-500 max-w-md md:max-w-full pl-16 pr-8">
-        <img className="" src={imgCut} alt="" />
-      </div> */}
       </div>
     </Section>
   )
