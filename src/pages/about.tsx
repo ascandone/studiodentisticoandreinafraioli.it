@@ -116,10 +116,6 @@ const About: FunctionComponent = () => {
           </div>
           <div className="flex-1 self-center">
             <div className="w-40 mx-auto">
-              <img
-                src="https://www.eduardzabara.com/wp-content/themes/eduardzabara/assets/img/eduard-zabara-chi-sono.jpg"
-                alt=""
-              />
               {/* <Img
                 className="max-w-full"
                 fluid={data.file.childImageSharp.fluid}
