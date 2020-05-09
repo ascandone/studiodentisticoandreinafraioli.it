@@ -39,17 +39,17 @@ const Education: FunctionComponent = () => (
 )
 
 const About: FunctionComponent = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      file(relativePath: { eq: "about-pic.png" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
+  // const data = useStaticQuery(graphql`
+  //   query {
+  //     file(relativePath: { eq: "about-pic.png" }) {
+  //       childImageSharp {
+  //         fluid {
+  //           ...GatsbyImageSharpFluid
+  //         }
+  //       }
+  //     }
+  //   }
+  // `)
 
   return (
     <Layout>
@@ -61,11 +61,11 @@ const About: FunctionComponent = () => {
           </div>
           <div className="flex-1 self-center">
             <div className="w-40 mx-auto">
-              <Img
+              {/* <Img
                 className="max-w-full"
                 fluid={data.file.childImageSharp.fluid}
                 alt="Foto della dottoressa Andreina Fraioli"
-              />
+              /> */}
             </div>
           </div>
         </div>
