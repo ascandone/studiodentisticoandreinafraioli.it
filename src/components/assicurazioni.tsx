@@ -38,7 +38,7 @@ const Assicurazioni: FunctionComponent = () => {
           <h3 className="text-teal-500 text-4xl font-lg font-semibold leading-tight mb-2">
             Convenzioni assicurative
           </h3>
-          <div className="text-gray-600 space-y-2 font-light">
+          <div className="rich-text">
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.Quo optio
               orrupti, architecto ab quisquam accusantium quia voluptatum
