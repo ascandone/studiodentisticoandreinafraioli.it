@@ -2,7 +2,7 @@ import React, { FunctionComponent, useRef, useEffect, useState } from 'react'
 import './layout.css'
 import Header from './header'
 import Contatti from './contatti'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 
 const Layout: FunctionComponent<{}> = ({ children }) => {
   const contacts = useRef<HTMLDivElement>(null)
