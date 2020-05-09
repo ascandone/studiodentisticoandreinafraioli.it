@@ -114,7 +114,7 @@ const Contatti: FunctionComponent = () => (
         </ContactSection>
 
         <ContactSection title="Indirizzo">
-          <span>Piazzale dei caduti della Montagnola 6</span>
+          <span>Piazzale dei Caduti della Montagnola 6</span>
           <span>00142, Roma (Italia)</span>
         </ContactSection>
       </div>
