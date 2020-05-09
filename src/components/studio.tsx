@@ -123,7 +123,7 @@ const Studio: FunctionComponent = () => {
                 key={i}
                 className={'rounded h-32 sm:h-40 md:h-48 lg:h-64 w-full ' + cls}
                 fluid={fluid}
-                alt=""
+                alt="Immagine dello studio"
               />
             ))}
           </div>
