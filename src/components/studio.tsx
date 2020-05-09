@@ -46,7 +46,7 @@ const Studio: FunctionComponent = () => (
                 </a>
               </p>
 
-              <button className="btn bg-teal-100 my-5 text-teal-900">
+              <button className="btn bg-teal-100 my-5 text-teal-900 hover:bg-teal-200">
                 Scopri di più
               </button>
             </div>

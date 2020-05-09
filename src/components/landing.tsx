@@ -62,7 +62,7 @@ const Landing: FunctionComponent = () => {
 
               <a
                 href="#contatti"
-                className="btn shadow-lg bg-teal-400 text-white transition-all duration-300 hover:shadow-xl"
+                className="btn shadow-lg bg-teal-400 text-white transition-all duration-200 hover:shadow-xl"
               >
                 Contattaci
               </a>
