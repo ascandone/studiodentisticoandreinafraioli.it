@@ -1,4 +1,8 @@
 module.exports = {
+  siteMetadata: {
+    title: 'Studio Andreina Fraioli',
+    description: '',
+  },
   plugins: [
     `gatsby-plugin-typescript`,
     `gatsby-plugin-postcss`,
