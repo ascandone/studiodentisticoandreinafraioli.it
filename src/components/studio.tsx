@@ -37,11 +37,21 @@ const Studio: FunctionComponent = () => (
 
               <p>
                 Raggiungici tramite{' '}
-                <a href="#" className="link text-gray-700 font-normal">
+                <a
+                  href="https://goo.gl/maps/nCHWdboDRGwvEALb8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link text-gray-700 font-normal"
+                >
                   google maps
                 </a>{' '}
                 o{' '}
-                <a href="#" className="link text-gray-700 font-normal">
+                <a
+                  href="https://citymapper.com/go/qjdvkuft34"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link text-gray-700 font-normal"
+                >
                   citymapper
                 </a>
               </p>
