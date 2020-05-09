@@ -55,15 +55,12 @@ const Studio: FunctionComponent = () => (
                   citymapper
                 </a>
               </p>
-
-              <button className="btn bg-teal-100 my-5 text-teal-900 hover:bg-teal-200">
+              {/* <button className="btn bg-teal-100 my-5 text-teal-900 hover:bg-teal-200">
                 Scopri di più
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
-
-        {/* <div className="bg-white h-64 max-w-3xl mx-auto rounded-xl">hello</div> */}
       </div>
     </Section>
     <div className="mt-5"></div>
