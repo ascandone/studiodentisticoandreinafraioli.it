@@ -106,11 +106,11 @@ const Contatti: FunctionComponent = () => (
           </div>
         </ContactSection>
         <ContactSection title="Orari">
-          <span>Lunedì 13:00 - 20:00</span>
-          <span>Martedì 13:30 - 20:00</span>
-          <span>Mercoledì 13:30 - 20:00</span>
-          <span>Giovedì 12:00 - 20:00</span>
-          <span>Venerdì 10:00 - 12:00</span>
+          <span>Lunedì 13:00 - 19:30</span>
+          <span>Martedì 13:00 - 19:30</span>
+          <span>Mercoledì 13:00 - 19:30</span>
+          <span>Giovedì 13:00 - 19:30</span>
+          <span>Venerdì 10:00 - 19:00</span>
         </ContactSection>
 
         <ContactSection title="Indirizzo">
