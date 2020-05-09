@@ -4,14 +4,6 @@ import Section from './section'
 import { useStaticQuery, graphql } from 'gatsby'
 import Img, { FluidObject } from 'gatsby-image'
 
-const img = (
-  <img
-    src="https://www.pronto-care.com/sites/all/themes/prontocare/logo.png"
-    alt=""
-  />
-)
-
-//https://www.pronto-care.com/sites/all/themes/prontocare/logo.png
 const Assicurazioni: FunctionComponent = () => {
   const assicurazioni = useStaticQuery(graphql`
     query {
@@ -39,19 +31,11 @@ const Assicurazioni: FunctionComponent = () => {
             Convenzioni assicurative
           </h3>
           <div className="rich-text">
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.Quo optio
-              orrupti, architecto ab quisquam accusantium quia voluptatum
-              veritatis.
-            </p>
+            <p>Siamo convenzionati con le maggiori compagnie assicurative.</p>
           </div>
         </div>
 
-        <div
-          // className="grid grid-flow-col grid-rows-1 md:grid-cols-3 h-20 overflow-scroll py-5"
-          // style={{ gridAutoColumns: '50%' }}
-          className="grid grid-cols-2 md:grid-cols-3 row-gap-5 col-gap-4 py-4 "
-        >
+        <div className="grid grid-cols-2 md:grid-cols-3 row-gap-5 col-gap-4 py-4 ">
           {assicurazioni.allFile.edges.map((data: any, i: number) => (
             <div key={i} className="h-20 flex items-center overflow-hidden">
               <Img

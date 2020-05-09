@@ -3,12 +3,10 @@ import Layout from '../components/layout'
 import Section from '../components/section'
 import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
+import educationData from '../data/education'
+import { EducationData } from '../types'
 
-const Item: FunctionComponent<{
-  year: number
-  name: string
-  location: string
-}> = props => (
+const Item: FunctionComponent<EducationData> = props => (
   <div className="relative">
     <div className="absolute border-l border-teal-100 top-0 bottom-0 left-0 ml-4 z-0"></div>
 
@@ -34,60 +32,9 @@ const Education: FunctionComponent = () => (
       Corsi e specializzazioni
     </h5>
     <div className="mt-2"></div>
-
-    <Item
-      year={1990}
-      name="Corso triennale di perfezionamento in ortognatodonzia bioprogressiva"
-      location="Prof. Carl Gugino, Buffalo University"
-    />
-
-    <Item
-      year={1998}
-      name="Corso annuale di perfezionamento in ortognatodonzia"
-      location="Prof. A. Salvato, Università di Milano"
-    />
-
-    <Item
-      year={1998}
-      name="Corso avanzato di elettromiografia e biofeedback"
-      location="Prof. Ivan Dus, Pordenone"
-    />
-
-    <Item
-      year={2004}
-      name="Master di 2° livello in gnatologia posturale"
-      location="Università degli studi di Tor Vergata"
-    />
-
-    <Item
-      year={2016}
-      name="Diploma Internazionale di formazione in Medicina Estetica"
-      location="Scuola Internazionale di Medicina Estetica Fondazione Fatebenefratelli, Roma"
-    />
-
-    <Item
-      year={2017}
-      name="Corso di endodonzia"
-      location="Dott Lucio Daniele, L’Aquila"
-    />
-
-    <Item
-      year={2018}
-      name="Corso di conservativa"
-      location="Prof. V. Kaitsas, Roma"
-    />
-
-    <Item
-      year={2018}
-      name="Corso di parodontologia non chirurgica"
-      location="Dr.ssa Marisa Roncati"
-    />
-
-    <Item
-      year={2019}
-      name="Master universitario di 2° livello in “Odontostomatologia in età evolutiva”"
-      location="Direttore: Prof. Maurizio Bossù"
-    />
+    {educationData.map((data, i) => (
+      <Item key={i} {...data} />
+    ))}
   </div>
 )
 

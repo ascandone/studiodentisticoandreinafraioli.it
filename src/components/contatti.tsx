@@ -55,8 +55,8 @@ const Contatti: FunctionComponent = () => (
         <div className="sm:mt-4"></div>
         <div className="text-cool-gray-300 space-y-2 font-light">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aliquam
-            earum soluta laudantium est saepe voluptates !
+            Non esitare a chiamarci, siamo a tua disposizione per ogni
+            chiarimento o dubbio.
           </p>
         </div>
         <div className="mt-8"></div>
