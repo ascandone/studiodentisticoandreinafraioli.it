@@ -3,77 +3,6 @@ import { ServiceData } from '../types'
 
 const data: Array<ServiceData> = [
   {
-    header: 'Luce pulsata',
-    body: (
-      <>
-        <p>
-          Per luce pulsata si intende una particolare forma di emissione del
-          raggio luminoso ad alta intensità ma di breve durata. L’apparecchio
-          che emette tale forma di energia tramite l’uso di opportuni filtri può
-          essere utilizzato per scopi diversi come Depilazione definitiva,
-          fotoringiovanimento, eliminazione delle macchie cutanee, attenuazioni
-          delle rughe, trattamento di acne e rosacea
-        </p>
-      </>
-    ),
-  },
-  {
-    header: 'Trattamento cellulite',
-    body: (
-      <>
-        <p>
-          La cellulite è un processo degenerativo del pannicolo adiposo
-          sottocutaneo conseguente ad un disturbo del microcircolo degli arti
-          inferiori. Questo inestetismo di interesse quasi esclusivamente
-          femminile si manifesta con un’alterazione della pelle che da liscia e
-          levigata assume un aspetto “bucherellato” (a buccia d’arancia) per poi
-          peggiorare nel tempo con la formazione di aree retratte a cratere
-          alternate a zone nodulari. Alla base di questa patologia ci sono la
-          ritenzione idrica e il rallentamento della circolazione locale degli
-          arti inferiori molto probabilmente legati a fattori ormonali e
-          genetici. Molto importante nella prevenzione di questo inestetismo è
-          un corretto stile di vita basato su alimentazione equilibrata,
-          attività fisica ed eliminazione dei fattori predisponenti o aggravanti
-          quali eccessivo consumo di sale, fumo, caffè, alcool e indumenti
-          troppo stretti. Fra le armi più efficaci a disposizione del medico
-          estetico troviamo la Carbossiterapia e la Mesoterapia oltre che
-          corrette indicazioni nutrizionali.
-        </p>
-      </>
-    ),
-  },
-  {
-    header: 'Carbossiterapia',
-    body: (
-      <>
-        <p>
-          Per carbossiterapia s’intende l’utilizzo di anidride carbonica
-          medicale (purificata) per scopi terapeutici. Questo gas iniettato
-          sottocute stimola il microcircolo sia locale che sistemico con
-          evidenti miglioramenti del trofismo e degli scambi cellulari. A ciò si
-          aggiunge un effetto lipolitico, ovvero di scioglimento del grasso
-          sottocutaneo. Per questi motivi le patologie che possono trarre
-          beneficio dalla carbossiterapia sono molteplici:
-        </p>
-        <ul>
-          <li>Cellulite</li>
-          <li>Adiposità localizzate</li>
-          <li>Lassità cutanea</li>
-          <li>Smagliature</li>
-          <li>Insufficienza venosa cronica (dilatazione dei capillari)</li>
-          <li>Psoriasi</li>
-          <li>Reumatismi e artrosi</li>
-        </ul>
-        <p>
-          Le moderne apparecchiature per carbossiterapia consentono di stabilire
-          la velocità di flusso, la temperatura, i tempi di applicazione e le
-          quantità totali di anidride carbonica da somministrare secondo i vari
-          protocolli utili per le diverse patologie.
-        </p>
-      </>
-    ),
-  },
-  {
     header: 'Cosmesi',
     body: (
       <>
@@ -118,51 +47,6 @@ const data: Array<ServiceData> = [
           PRP, l’acido ialuronico, il microneedling, la carbossiterapia e il
           botulino, il peeling, la rimozione di macchie cutanee, nonché la
           scelta dei cosmetici appropriati al tipo di pelle.,
-        </p>
-      </>
-    ),
-  },
-  {
-    header: 'Botulino',
-    body: (
-      <>
-        <p>
-          Prodotta dal batterio Clostridium botulinum la tossina botulinica ha
-          la capacità di inattivare la muscolatura e per questo motivo il suo
-          uso si è affermato in medicina estetica per il trattamento delle rughe
-          facciali che sono appunto dovute alla contrazione ripetuta dei muscoli
-          mimici. Si deve pensare al trattamento del volto con tossina
-          botulinica come alla possibilità di riarmonizzare le tensioni che la
-          muscolatura provoca nei tessuti creando un nuovo equilibrio fra i
-          muscoli antagonisti. Il suo uso riarmonizza le strutture muscolari del
-          volto nel terzo superiore del viso. Ciò che vogliamo ottenere non è la
-          paralisi dei muscoli responsabili delle rughe d’espressione ma
-          esclusivamente il loro indebolimento. In soggetti giovani il
-          trattamento determinerà un ritardo nello stabilirsi delle rughe
-          d’espressione che in un primo momento sono transitorie.
-        </p>
-      </>
-    ),
-  },
-  {
-    header: 'Filler',
-    body: (
-      <>
-        <p>
-          L’invecchiamento del viso è caratterizzato dalla formazione delle
-          rughe e dalla progressiva “caduta” delle guance. Quest’ultima è dovuta
-          all’azione della forza di gravità su tessuti che hanno perso
-          elasticità e volume. I filler son particolari sostanze altamente
-          purificate, biocompatibili e riassorbibili che consentono di
-          ripristinare i volumi andati perduti e di distendere solchi,
-          depressioni e rughe attraverso il loro riempimento. La maggior parte
-          dei filler sono a base di acido ialuronico cross-linkato ma con
-          formulazioni differenziate a seconda dell’inestetismo da trattare.
-          Esistono così filler per la correzione dei volumi (zigomi, labbra,
-          ecc.), filler per le rughe superficiali e filler per le rughe
-          profonde. In mani esperte i filler consentono di restituire
-          rapidamente un aspetto giovanile e tonico a visi invecchiati e
-          stanchi.
         </p>
       </>
     ),
@@ -218,6 +102,122 @@ const data: Array<ServiceData> = [
           <li>Rughe</li>
           <li>Tessuto eccedente palpebrale</li>
         </ul>
+      </>
+    ),
+  },
+  {
+    header: 'Filler',
+    body: (
+      <>
+        <p>
+          L’invecchiamento del viso è caratterizzato dalla formazione delle
+          rughe e dalla progressiva “caduta” delle guance. Quest’ultima è dovuta
+          all’azione della forza di gravità su tessuti che hanno perso
+          elasticità e volume. I filler son particolari sostanze altamente
+          purificate, biocompatibili e riassorbibili che consentono di
+          ripristinare i volumi andati perduti e di distendere solchi,
+          depressioni e rughe attraverso il loro riempimento. La maggior parte
+          dei filler sono a base di acido ialuronico cross-linkato ma con
+          formulazioni differenziate a seconda dell’inestetismo da trattare.
+          Esistono così filler per la correzione dei volumi (zigomi, labbra,
+          ecc.), filler per le rughe superficiali e filler per le rughe
+          profonde. In mani esperte i filler consentono di restituire
+          rapidamente un aspetto giovanile e tonico a visi invecchiati e
+          stanchi.
+        </p>
+      </>
+    ),
+  },
+  {
+    header: 'Botulino',
+    body: (
+      <>
+        <p>
+          Prodotta dal batterio Clostridium botulinum la tossina botulinica ha
+          la capacità di inattivare la muscolatura e per questo motivo il suo
+          uso si è affermato in medicina estetica per il trattamento delle rughe
+          facciali che sono appunto dovute alla contrazione ripetuta dei muscoli
+          mimici. Si deve pensare al trattamento del volto con tossina
+          botulinica come alla possibilità di riarmonizzare le tensioni che la
+          muscolatura provoca nei tessuti creando un nuovo equilibrio fra i
+          muscoli antagonisti. Il suo uso riarmonizza le strutture muscolari del
+          volto nel terzo superiore del viso. Ciò che vogliamo ottenere non è la
+          paralisi dei muscoli responsabili delle rughe d’espressione ma
+          esclusivamente il loro indebolimento. In soggetti giovani il
+          trattamento determinerà un ritardo nello stabilirsi delle rughe
+          d’espressione che in un primo momento sono transitorie.
+        </p>
+      </>
+    ),
+  },
+  {
+    header: 'Luce pulsata',
+    body: (
+      <>
+        <p>
+          Per luce pulsata si intende una particolare forma di emissione del
+          raggio luminoso ad alta intensità ma di breve durata. L’apparecchio
+          che emette tale forma di energia tramite l’uso di opportuni filtri può
+          essere utilizzato per scopi diversi come Depilazione definitiva,
+          fotoringiovanimento, eliminazione delle macchie cutanee, attenuazioni
+          delle rughe, trattamento di acne e rosacea
+        </p>
+      </>
+    ),
+  },
+  {
+    header: 'Carbossiterapia',
+    body: (
+      <>
+        <p>
+          Per carbossiterapia s’intende l’utilizzo di anidride carbonica
+          medicale (purificata) per scopi terapeutici. Questo gas iniettato
+          sottocute stimola il microcircolo sia locale che sistemico con
+          evidenti miglioramenti del trofismo e degli scambi cellulari. A ciò si
+          aggiunge un effetto lipolitico, ovvero di scioglimento del grasso
+          sottocutaneo. Per questi motivi le patologie che possono trarre
+          beneficio dalla carbossiterapia sono molteplici:
+        </p>
+        <ul>
+          <li>Cellulite</li>
+          <li>Adiposità localizzate</li>
+          <li>Lassità cutanea</li>
+          <li>Smagliature</li>
+          <li>Insufficienza venosa cronica (dilatazione dei capillari)</li>
+          <li>Psoriasi</li>
+          <li>Reumatismi e artrosi</li>
+        </ul>
+        <p>
+          Le moderne apparecchiature per carbossiterapia consentono di stabilire
+          la velocità di flusso, la temperatura, i tempi di applicazione e le
+          quantità totali di anidride carbonica da somministrare secondo i vari
+          protocolli utili per le diverse patologie.
+        </p>
+      </>
+    ),
+  },
+  {
+    header: 'Trattamento cellulite',
+    body: (
+      <>
+        <p>
+          La cellulite è un processo degenerativo del pannicolo adiposo
+          sottocutaneo conseguente ad un disturbo del microcircolo degli arti
+          inferiori. Questo inestetismo di interesse quasi esclusivamente
+          femminile si manifesta con un’alterazione della pelle che da liscia e
+          levigata assume un aspetto “bucherellato” (a buccia d’arancia) per poi
+          peggiorare nel tempo con la formazione di aree retratte a cratere
+          alternate a zone nodulari. Alla base di questa patologia ci sono la
+          ritenzione idrica e il rallentamento della circolazione locale degli
+          arti inferiori molto probabilmente legati a fattori ormonali e
+          genetici. Molto importante nella prevenzione di questo inestetismo è
+          un corretto stile di vita basato su alimentazione equilibrata,
+          attività fisica ed eliminazione dei fattori predisponenti o aggravanti
+          quali eccessivo consumo di sale, fumo, caffè, alcool e indumenti
+          troppo stretti. Fra le armi più efficaci a disposizione del medico
+          estetico troviamo la Carbossiterapia e la Mesoterapia oltre che
+          corrette indicazioni nutrizionali.
+        </p>
       </>
     ),
   },
