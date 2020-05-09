@@ -3,6 +3,77 @@ import { ServiceData } from '../types'
 
 const data: Array<ServiceData> = [
   {
+    header: 'Luce pulsata',
+    body: (
+      <>
+        <p>
+          Per luce pulsata si intende una particolare forma di emissione del
+          raggio luminoso ad alta intensità ma di breve durata. L’apparecchio
+          che emette tale forma di energia tramite l’uso di opportuni filtri può
+          essere utilizzato per scopi diversi come Depilazione definitiva,
+          fotoringiovanimento, eliminazione delle macchie cutanee, attenuazioni
+          delle rughe, trattamento di acne e rosacea
+        </p>
+      </>
+    ),
+  },
+  {
+    header: 'Trattamento cellulite',
+    body: (
+      <>
+        <p>
+          La cellulite è un processo degenerativo del pannicolo adiposo
+          sottocutaneo conseguente ad un disturbo del microcircolo degli arti
+          inferiori. Questo inestetismo di interesse quasi esclusivamente
+          femminile si manifesta con un’alterazione della pelle che da liscia e
+          levigata assume un aspetto “bucherellato” (a buccia d’arancia) per poi
+          peggiorare nel tempo con la formazione di aree retratte a cratere
+          alternate a zone nodulari. Alla base di questa patologia ci sono la
+          ritenzione idrica e il rallentamento della circolazione locale degli
+          arti inferiori molto probabilmente legati a fattori ormonali e
+          genetici. Molto importante nella prevenzione di questo inestetismo è
+          un corretto stile di vita basato su alimentazione equilibrata,
+          attività fisica ed eliminazione dei fattori predisponenti o aggravanti
+          quali eccessivo consumo di sale, fumo, caffè, alcool e indumenti
+          troppo stretti. Fra le armi più efficaci a disposizione del medico
+          estetico troviamo la Carbossiterapia e la Mesoterapia oltre che
+          corrette indicazioni nutrizionali.
+        </p>
+      </>
+    ),
+  },
+  {
+    header: 'Carbossiterapia',
+    body: (
+      <>
+        <p>
+          Per carbossiterapia s’intende l’utilizzo di anidride carbonica
+          medicale (purificata) per scopi terapeutici. Questo gas iniettato
+          sottocute stimola il microcircolo sia locale che sistemico con
+          evidenti miglioramenti del trofismo e degli scambi cellulari. A ciò si
+          aggiunge un effetto lipolitico, ovvero di scioglimento del grasso
+          sottocutaneo. Per questi motivi le patologie che possono trarre
+          beneficio dalla carbossiterapia sono molteplici:
+        </p>
+        <ul>
+          <li>Cellulite</li>
+          <li>Adiposità localizzate</li>
+          <li>Lassità cutanea</li>
+          <li>Smagliature</li>
+          <li>Insufficienza venosa cronica (dilatazione dei capillari)</li>
+          <li>Psoriasi</li>
+          <li>Reumatismi e artrosi</li>
+        </ul>
+        <p>
+          Le moderne apparecchiature per carbossiterapia consentono di stabilire
+          la velocità di flusso, la temperatura, i tempi di applicazione e le
+          quantità totali di anidride carbonica da somministrare secondo i vari
+          protocolli utili per le diverse patologie.
+        </p>
+      </>
+    ),
+  },
+  {
     header: 'Cosmesi',
     body: (
       <>
@@ -92,58 +163,6 @@ const data: Array<ServiceData> = [
           profonde. In mani esperte i filler consentono di restituire
           rapidamente un aspetto giovanile e tonico a visi invecchiati e
           stanchi.
-        </p>
-      </>
-    ),
-  },
-  {
-    header: 'Trattamento con piastrine (PRP)',
-    body: (
-      <>
-        <p>
-          Il PRP (Plasma Ricco di Piastrine) è un prodotto che il medico ottiene
-          dal sangue dello stesso paziente che, dopo essere stato prelevato con
-          una siringa viene sottoposto ad uno speciale processo di
-          centrifugazione. Questa procedura consente di separare dal sangue un
-          concentrato di piastrine e fattori di crescita che vengono poi
-          iniettati nella cute stimolando il rinnovamento cellulare e la
-          produzione dei costituenti base del tessuto connettivo. La conseguenza
-          è un aumento di luminosità e turgore della pelle con riduzione dei
-          segni dell’età. I concentrati ottenuti dal sangue per centrifugazione
-          (PRP, PRF, AFG, CGF, PRGF, ecc.) vengono utilizzati in medicina e
-          chirurgia per promuovere la guarigione di ferite torpide e per
-          incrementare in genere i processi di guarigione. In medicina estetica
-          si usano per la biorivitalizzazione del viso e per promuovere la
-          ricrescita dei capelli.
-        </p>
-      </>
-    ),
-  },
-  {
-    header: `Trattamento calvizie`,
-    body: (
-      <>
-        <p>
-          Nell’assoluta maggioranza dei casi la perdita dei capelli è legata a
-          fattori ormonali uniti ad una predisposizione genetica. In particolare
-          nell’uomo la calvizie è dovuta all’azione dell’ormone maschile per
-          eccellenza, il testosterone, su determinati bulbi piliferi ad esso
-          sensibili che vanno incontro ad una progressiva involuzione e infine
-          alla scomparsa. La distribuzione dei peli e dei capelli fa parte dei
-          cosiddetti caratteri sessuali secondari che servono a differenziare i
-          due sessi. Per quanto riguarda il viso nel maschio abbiamo la crescita
-          della barba e la perdita dei capelli nelle zone frontali (le
-          stempiature) e sulla nuca. In base alla costituzione genetica le aree
-          sensibili all’azione del testosterone possono estendersi a gran parte
-          del cuoio capelluto lasciando indenne solo una ristretta zona
-          periferica che circonda un vertice ormai glabro. Il testosterone è
-          presente in piccole quantità anche nella donna. Quando questa eredita
-          dei bulbi sensibili all’azione di questo ormone può andare incontro ad
-          una calvizie con meccanismo analogo a quella maschile anche se con un
-          aspetto differente in quanto nel sesso femminile la perdita dei
-          capelli è diffusa invece che concentrata sulle tempie e sulla nuca.
-          Oggigiorno le armi più efficaci per combattere la calvizie sono il
-          PRP, la carbossiterapia ed il microneedling
         </p>
       </>
     ),
