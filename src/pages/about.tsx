@@ -41,10 +41,8 @@ const Education: FunctionComponent = () => (
 const About: FunctionComponent = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "landing-pic-cut.png" }) {
+      file(relativePath: { eq: "about-pic.png" }) {
         childImageSharp {
-          # Specify a fluid image and fragment
-          # The default maxWidth is 800 pixels
           fluid {
             ...GatsbyImageSharpFluid
           }
@@ -63,11 +61,11 @@ const About: FunctionComponent = () => {
           </div>
           <div className="flex-1 self-center">
             <div className="w-40 mx-auto">
-              {/* <Img
+              <Img
                 className="max-w-full"
                 fluid={data.file.childImageSharp.fluid}
                 alt="Foto della dottoressa Andreina Fraioli"
-              /> */}
+              />
             </div>
           </div>
         </div>
