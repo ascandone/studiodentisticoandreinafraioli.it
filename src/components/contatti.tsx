@@ -62,19 +62,20 @@ const Contatti: FunctionComponent = () => (
         <div className="mt-8"></div>
 
         <div className="flex flex-col sm:flex-row justify-center">
-          <a className="btn bg-teal-200 text-cool-gray-900">
-            <a href="tel:3358316532" className="flex space-x-2 justify-center">
-              {phoneIcon}
-              <span className="block sm:hidden">Chiamaci</span>
-              <span className="hidden sm:block">335 - 831 6532</span>
-            </a>
+          <a
+            href="tel:3358316532"
+            className="flex space-x-2 justify-center btn bg-teal-200 text-cool-gray-900 transform transition-transform duration-100 hover:-translate-y-1"
+          >
+            {phoneIcon}
+            <span className="block sm:hidden">Chiamaci</span>
+            <span className="hidden sm:block">335 - 831 6532</span>
           </a>
 
           <div className="mt-3 sm:mt-0 sm:mr-5"></div>
 
           <Link
             to="/about/"
-            className="btn bg-cool-gray-800 text-cool-gray-200 text-center"
+            className="btn bg-cool-gray-800 text-cool-gray-200 text-center hover:bg-cool-gray-700"
             activeClassName="hidden"
           >
             Scopri di più
