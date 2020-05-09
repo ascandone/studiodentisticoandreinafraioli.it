@@ -20,7 +20,7 @@ const MobileLink: FunctionComponent<{ to: string }> = props => (
 
 const MobileNav: FunctionComponent<{ expanded: boolean }> = ({ expanded }) => (
   <div
-    className={`fixed z-10 overflow-hidden top-0 right-0 left-0 bottom-0 ${
+    className={`fixed z-30 overflow-hidden top-0 right-0 left-0 bottom-0 ${
       expanded ? '' : 'hidden'
     }`}
     style={{ touchAction: expanded ? 'none' : 'auto' }}
@@ -130,7 +130,7 @@ const Header: FunctionComponent<{ darkBg?: boolean }> = ({
 
             <button
               onClick={_ => setExpanded(!expanded)}
-              className={`wrapper lg:hidden fixed right-0 z-10 focus:outline-none ${stdToSmSectionPx} ${mdSectionPx}`}
+              className={`wrapper lg:hidden fixed right-0 z-40 focus:outline-none ${stdToSmSectionPx} ${mdSectionPx}`}
             >
               {expanded ? xIcon : menuIcon(darkBg)}
             </button>
