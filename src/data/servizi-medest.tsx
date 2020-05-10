@@ -52,6 +52,35 @@ const data: Array<ServiceData> = [
     ),
   },
   {
+    header: 'Peeling',
+    body: (
+      <>
+        <p>
+          Il termine peeling viene dal verbo inglese “to peel” che significa
+          spellarsi. Quando esposta all’azione di agenti irritanti chimici o
+          fisici la pelle tende a rigenerarsi dal profondo facendo cadere gli
+          strati superficiali che appunto si spellano lasciano il posto ad un
+          incarnato più luminoso e tonico. Un fenomeno naturale che tutti
+          conosciamo è lo spellamento conseguente all’abbronzatura. Effetti
+          analoghi ma meno dannosi dei raggi solari, che alla lunga invecchiano
+          la pelle, si possono ottenere con l’azione di determinate sostanze
+          chimiche. Fra di esse molto utilizzati sono gli acidi della frutta
+          (mandelico, malico, glicolico, piruvico, citrico, tartarico) che
+          consentono di effettuare un soft-peeling cioè un peeling socializzante
+          (che non costringe il paziente a chiudersi in casa per una settimana).
+          Esistono poi sostanze più aggressive, che vanno dall’acido tetracetico
+          al fenolo, che a fronte di un’azione più energica e profonda
+          presentano però effetti collaterali importanti e di più complessa
+          gestione. Il peeling riattiva il turnover cellulare, stimola la
+          neocollagenesi, migliora tono ed elasticità della pelle e riduce
+          seborrea e pori dilatati consentendo di trattare efficacemente rughe,
+          macchie, acne e cicatrici post-acneiche, disordini della
+          cheratinizzazione, ecc.
+        </p>
+      </>
+    ),
+  },
+  {
     header: 'Microneedling',
     body: (
       <>
@@ -217,35 +246,6 @@ const data: Array<ServiceData> = [
           troppo stretti. Fra le armi più efficaci a disposizione del medico
           estetico troviamo la Carbossiterapia e la Mesoterapia oltre che
           corrette indicazioni nutrizionali.
-        </p>
-      </>
-    ),
-  },
-  {
-    header: 'Peeling',
-    body: (
-      <>
-        <p>
-          Il termine peeling viene dal verbo inglese “to peel” che significa
-          spellarsi. Quando esposta all’azione di agenti irritanti chimici o
-          fisici la pelle tende a rigenerarsi dal profondo facendo cadere gli
-          strati superficiali che appunto si spellano lasciano il posto ad un
-          incarnato più luminoso e tonico. Un fenomeno naturale che tutti
-          conosciamo è lo spellamento conseguente all’abbronzatura. Effetti
-          analoghi ma meno dannosi dei raggi solari, che alla lunga invecchiano
-          la pelle, si possono ottenere con l’azione di determinate sostanze
-          chimiche. Fra di esse molto utilizzati sono gli acidi della frutta
-          (mandelico, malico, glicolico, piruvico, citrico, tartarico) che
-          consentono di effettuare un soft-peeling cioè un peeling socializzante
-          (che non costringe il paziente a chiudersi in casa per una settimana).
-          Esistono poi sostanze più aggressive, che vanno dall’acido tetracetico
-          al fenolo, che a fronte di un’azione più energica e profonda
-          presentano però effetti collaterali importanti e di più complessa
-          gestione. Il peeling riattiva il turnover cellulare, stimola la
-          neocollagenesi, migliora tono ed elasticità della pelle e riduce
-          seborrea e pori dilatati consentendo di trattare efficacemente rughe,
-          macchie, acne e cicatrici post-acneiche, disordini della
-          cheratinizzazione, ecc.
         </p>
       </>
     ),
