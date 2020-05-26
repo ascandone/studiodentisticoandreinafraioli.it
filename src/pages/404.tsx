@@ -18,7 +18,7 @@ const NotFoundPage: FunctionComponent = () => (
 
           <p>
             Puoi tornare al sito cliccando{' '}
-            <Link to="/" className="link text-gray-900 font-medium">
+            <Link to="/" className="link text-gray-900">
               qua.
             </Link>
           </p>
