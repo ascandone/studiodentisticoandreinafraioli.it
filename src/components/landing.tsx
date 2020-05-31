@@ -34,14 +34,14 @@ const Landing: FunctionComponent = () => {
             <p className="text-lg font-light text-gray-600 leading-relaxed">
               Presso il nostro studio effettuiamo qualsiasi tipo di intervento{' '}
               <Link
-                to="/odontoiatria"
+                to="/odontoiatria/"
                 className="link font-normal text-gray-700"
               >
                 Odontoiatrico
               </Link>{' '}
               e di{' '}
               <Link
-                to="/medicina-estetica"
+                to="/medicina-estetica/"
                 className="link font-normal text-gray-700"
               >
                 Medicina Estetica
