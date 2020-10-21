@@ -10,7 +10,7 @@ const Item: FunctionComponent<EducationData> = props => (
   <div className="relative">
     <div className="absolute border-l border-teal-100 top-0 bottom-0 left-0 ml-4 z-0"></div>
 
-    <div className="flex items-center py-2">
+    <div className="flex items-start py-3">
       <div className="z-10 w-12 flex-shrink-0">
         <span className="bg-teal-100 px-2 py-1 rounded-full leading-none text-sm text-teal-800">
           {props.year}
@@ -27,7 +27,7 @@ const Item: FunctionComponent<EducationData> = props => (
 )
 
 const Education: FunctionComponent = () => (
-  <div className="mx-auto max-w-2xl">
+  <Section small>
     <h5 className="text-2xl text-teal-500 text-center">
       Corsi e specializzazioni
     </h5>
@@ -35,45 +35,45 @@ const Education: FunctionComponent = () => (
     {educationData.map((data, i) => (
       <Item key={i} {...data} />
     ))}
-  </div>
+  </Section>
 )
 
 const About: FunctionComponent = () => {
-  // const data = useStaticQuery(graphql`
-  //   query {
-  //     file(relativePath: { eq: "about-pic.png" }) {
-  //       childImageSharp {
-  //         fluid {
-  //           ...GatsbyImageSharpFluid
-  //         }
-  //       }
-  //     }
-  //   }
-  // `)
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "about-pic.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
 
   return (
     <Layout>
-      <Section>
-        <div className="flex flex-col justify-center md:justify-between md:flex-row">
-          <div className="flex-1 md:mt-10">
-            <h5 className="subhead text-gray-500">chi sono</h5>
-            <h2 className="title text-teal-500">Dott. Andreina Fraioli</h2>
-          </div>
-          <div className="flex-1 self-center">
-            <div className="w-40 mx-auto">
-              {/* <Img
-                className="max-w-full"
-                fluid={data.file.childImageSharp.fluid}
-                alt="Foto della dottoressa Andreina Fraioli"
-              /> */}
+      <div className="border-b my-8">
+        <Section small>
+          <div className="flex flex-col justify-center md:justify-between md:flex-row">
+            <div className="flex-1">
+              <h5 className="subhead text-gray-500">chi sono</h5>
+              <h2 className="title text-teal-500">Dott. Andreina Fraioli</h2>
+            </div>
+            <div className="flex-1  self-center">
+              <div className="w-64 sm:w-80 mx-auto">
+                <Img
+                  fluid={data.file.childImageSharp.fluid}
+                  alt="Foto della dottoressa Andreina Fraioli"
+                />
+              </div>
             </div>
           </div>
-        </div>
-      </Section>
-
-      <Section>
-        <div className="bg-cool-gray-100 px-3 py-3 rounded-lg">
-          <div className="text-sm font-light text-gray-900 space-y-2">
+        </Section>
+      </div>
+      <Section small>
+        <div className="py-3 rounded-lg">
+          <div className="prose">
             <p>
               Esperta in ortodonzia, estremamente empatica, da oltre 30 anni si
               occupa prevalentemente dei piccoli pazienti aggiornandosi
@@ -96,13 +96,22 @@ const About: FunctionComponent = () => {
               dei colleghi. Attualmente esercita attività privata nel suo studio
               di Roma in Piazzale Caduti della Montagnola 6
             </p>
-            <p>
-              N. Ordine Albo dei Medici: <b>38393</b> <br />
-              N. Ordine Albo degli Odontoiatri: <b>1710</b> <br />
-              N. Ordine Albo di Medicina Estetica: <b>362</b>
-            </p>
           </div>
+          <ul className="flex flex-col pt-10 sm:flex-row">
+            {[
+              { label: 'Ordine Albo dei Medici', value: 38393 },
+              { label: 'Ordine Albo degli Odontoiatri', value: 38393 },
+              { label: 'Ordine Albo di Medicina Estetica', value: 362 },
+            ].map(({ label, value }) => (
+              <li className="flex-1 text-center mb-6 flex flex-col">
+                <h2 className="text-cool-gray-500 text-sm">N. {label}</h2>
+                <div className="mt-2"></div>
+                <p className="text-gray-900">{value}</p>
+              </li>
+            ))}
+          </ul>
         </div>
+
         <div className="mt-8"></div>
         <Education />
       </Section>

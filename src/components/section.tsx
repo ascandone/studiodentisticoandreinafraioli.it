@@ -4,13 +4,14 @@ import React from 'react'
 export const stdToSmSectionPx = 'px-4 sm:px-6'
 export const mdSectionPx = 'md:px-6 lg:px-10 xl:px-0'
 
-const Section: FunctionComponent<{ paddedSm?: boolean }> = ({
+const Section: FunctionComponent<{ paddedSm?: boolean; small?: boolean }> = ({
   children,
   paddedSm = false,
+  small = false,
 }) => (
   <section
-    className={`max-w-6xl mx-auto ${
-      paddedSm ? '' : stdToSmSectionPx
+    className={`mx-auto ${paddedSm ? '' : stdToSmSectionPx} ${
+      small ? 'max-w-2xl' : 'max-w-6xl'
     } md:px-6 lg:px-10 xl:px-0`}
   >
     {children}

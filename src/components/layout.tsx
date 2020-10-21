@@ -14,19 +14,21 @@ const Layout: FunctionComponent<{}> = ({ children }) => {
   }, [])
 
   return (
-    <div className="h-screen flex flex-col">
+    <>
       <Helmet>
         <link
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
           rel="stylesheet"
         />
       </Helmet>
-      <Header darkBg={darkBg} />
-      <main className="flex-1">{children}</main>
-      <footer ref={contacts}>
-        <Contatti />
-      </footer>
-    </div>
+      <div className="h-screen antialiased">
+        <Header darkBg={darkBg} />
+        <main>{children}</main>
+        <footer ref={contacts}>
+          <Contatti />
+        </footer>
+      </div>
+    </>
   )
 }
 

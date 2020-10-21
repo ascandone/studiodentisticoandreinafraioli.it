@@ -64,46 +64,42 @@ const Studio: FunctionComponent = () => {
 
   return (
     <>
-      <Section>
+      <Section small>
         <div className="mt-16 text-center ">
           <div className="max-w-xl mx-auto">
             <h5 className="text-gray-500 subhead">Lo studio</h5>
             <h2 className="text-teal-500 title">Rilassante e accogliente.</h2>
           </div>
 
-          <div className="">
-            <div className="flex-1">
-              <div className="text-gray-600 font-light max-w-4xl mx-auto">
-                <p>
-                  Lo studio si trova a{' '}
-                  <span className="text-gray-800 font-normal">
-                    Piazzale dei Caduti della Montagnola
-                  </span>{' '}
-                  - scala A interno 2.
-                </p>
+          <div className="text-gray-600 font-light max-w-4xl mx-auto">
+            <p>
+              Lo studio si trova a{' '}
+              <span className="text-gray-800 font-normal">
+                Piazzale dei Caduti della Montagnola
+              </span>{' '}
+              - scala A interno 2.
+            </p>
 
-                <p>
-                  Raggiungici tramite{' '}
-                  <a
-                    href="https://goo.gl/maps/nCHWdboDRGwvEALb8"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="link text-gray-700 font-normal"
-                  >
-                    google maps
-                  </a>{' '}
-                  o{' '}
-                  <a
-                    href="https://citymapper.com/go/qjdvkuft34"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="link text-gray-700 font-normal"
-                  >
-                    citymapper
-                  </a>
-                </p>
-              </div>
-            </div>
+            <p>
+              Raggiungici tramite{' '}
+              <a
+                href="https://goo.gl/maps/nCHWdboDRGwvEALb8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link text-gray-700 font-normal"
+              >
+                google maps
+              </a>{' '}
+              o{' '}
+              <a
+                href="https://citymapper.com/go/qjdvkuft34"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link text-gray-700 font-normal"
+              >
+                citymapper
+              </a>
+            </p>
           </div>
         </div>
       </Section>

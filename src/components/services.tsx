@@ -35,7 +35,7 @@ const Services: FunctionComponent<{
   services: Array<ServiceData>
 }> = props => (
   <Layout>
-    <Section>
+    <Section small>
       <div className="flex-1 md:mt-10">
         <h5 className="subhead text-gray-500">servizi</h5>
         <h2 className="title text-teal-500">{props.header}</h2>

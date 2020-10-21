@@ -118,21 +118,21 @@ const Contatti: FunctionComponent = () => (
           <span>00142, Roma (Italia)</span>
         </ContactSection>
       </div>
-      {/*
-      <div className="text-cool-gray-400 font-mono md:mx-10 text-xs mt-10 text-center">
-        <a href="#" className="link dark">
+
+      <div className="text-cool-gray-500 font-mono md:mx-10 text-xs mt-10 text-center">
+        {/* <a href="#" className="link link-dark">
           Cookie policy
         </a>
         {' • '}
-        <a href="#" className="link dark">
+        <a href="#" className="link link-dark">
           Privacy policy
         </a>
-        {' • '}
+        {' • '} */}
         Designed and developed by{' '}
-        <a href="#" className="link dark">
+        <a href="https://ascandone.github.io" target="_blank" className="link link-dark">
           Alessandro Scandone
         </a>
-      </div> */}
+      </div>
     </div>
   </Section>
 )

@@ -24,7 +24,7 @@ const Assicurazioni: FunctionComponent = () => {
   `)
 
   return (
-    <Section>
+    <Section small>
       <div className="mt-10 text-center max-w-xl mx-auto">
         <div className="max-w-xl">
           <h3 className="text-teal-500 text-4xl font-lg font-semibold leading-tight mb-2">

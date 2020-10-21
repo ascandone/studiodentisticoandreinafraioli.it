@@ -1,10 +1,6 @@
 @tailwind base;
 @tailwind components;
 
-body {
-  font-family: 'Poppins';
-}
-
 .dotted {
   @apply relative;
 }
@@ -24,7 +20,7 @@ body {
 }
 
 .btn {
-  @apply cursor-pointer inline-block rounded-lg cursor-pointer text-base tracking-wide px-5 py-3;
+  @apply cursor-pointer inline-block rounded-lg text-base tracking-wide px-5 py-3;
 }
 
 .btn .btn-outline {
