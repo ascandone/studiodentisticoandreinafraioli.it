@@ -4,6 +4,7 @@ module.exports = {
     description: '',
   },
   plugins: [
+    `gatsby-plugin-preact`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
